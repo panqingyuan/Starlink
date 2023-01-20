@@ -1,0 +1,18 @@
+Features:
+    - config satellite
+        long, lat, eleva, alt, duration
+    - display satellite based on the location provided
+    - select satellite to track in real time
+
+Layout:
+    - top content bottom
+        -content: left right
+            -left: top bottom
+
+Component
+                            APP
+            Header          Main            Footer
+
+                SatSetting  SatList     WorldMap
+
+Data Communication
